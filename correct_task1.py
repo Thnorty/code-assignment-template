@@ -3,7 +3,7 @@
 
 def calculate_average_order_value(orders):
     if not isinstance(orders, list):
-        return 0
+        return 0.0
 
     total = 0
     count = 0
@@ -17,7 +17,7 @@ def calculate_average_order_value(orders):
             continue
 
     if count == 0:
-        return 0
+        return 0.0
 
     return total / count
 

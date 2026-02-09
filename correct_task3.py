@@ -2,7 +2,7 @@
 # Do not modify `task3.py`.
 def average_valid_measurements(values):
     if not isinstance(values, list):
-        return 0
+        return 0.0
 
     total = 0
     count = 0
@@ -16,6 +16,6 @@ def average_valid_measurements(values):
                 continue
 
     if count == 0:
-        return 0
+        return 0.0
 
     return total / count
